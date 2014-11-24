@@ -24,10 +24,14 @@ Shiny Web Framework
 * Both R and Shiny (and many other useful packages) are free
 
 ***
-Your R Code
-![plus](figures/plus.png)
-Shiny
-![equals](figures/equals.png)
+Your R Code:
+```{r, eval=FALSE}
+bar<-fooFunction(..)
+```
+![plus](figures/plus.png)  
+The `Shiny` package  
+![equals](figures/equals.png)  
+<font size = "5">Web applications</font>
 ![webApp](figures/webApp.png)
 
 Why Do We Use R
@@ -36,9 +40,9 @@ Why Do We Use R
 * R has increased our efficiency by leaps and bounds, due to customization and automation of repeated tasks
 * Because R is open-source, people in the environmental field have created dozens of <a href="http://cran.r-project.org/web/views/Environmetrics.html" target="_blank">packages</a> to streamline tasks that we do regularly
 * Just a few examples:
- + <a href="http://cran.r-project.org/web/packages/openair/index.html" target="_blank">openair</a>: provides numerous tools to analyze, interpret and understand air pollution time series data 
- + <a href="http://soilwater.r-forge.r-project.org/" target="_blank">Soilwaterfun</a>: package providing soil water retention and soil hydraulic conductivity functions 
- + <a href="http://cran.r-project.org/web/packages/wq/index.html" target="_blank">wq</a>: Processing and exploration of data from monitoring programs for aquatic ecosystems, with a focus on time series data for physical and chemical properties of water and plankton
+ + <font size = "6"><a href="http://cran.r-project.org/web/packages/openair/index.html" target="_blank">openair</a>: provides numerous tools to analyze, interpret and understand air pollution time series data</font> 
+ + <font size = "6"><a href="http://soilwater.r-forge.r-project.org/" target="_blank">Soilwaterfun</a>: package providing soil water retention and soil hydraulic conductivity functions </font>
+ + <font size = "6"><a href="http://cran.r-project.org/web/packages/wq/index.html" target="_blank">wq</a>: Processing and exploration of data from monitoring programs for aquatic ecosystems, with a focus on time series data for physical and chemical properties of water and plankton</font>
  
 Why Do We Use R and Shiny?
 ====================================================
@@ -82,7 +86,7 @@ ToxWatch Public Tool and Manager Dashboard
  + Stored in Oracle database
  + User selects any combination of pollutants/monitors/dates
 * Public Tool (<a href="http://www.in.gov/idem/pages/airstats/?site=toxics&style=toxics" target="_blank">here</a>) 
-* Manager's Dashboard (<a href="http://idemappp01vl.state.in.us:3838/ToxicsDashboard/" target="_blank">here</a>)
+* Manager's Dashboard (<a href="http://idemappd01vl.state.in.us:3838/ToxicsDashboard/" target="_blank">here</a>)
 
 Potential benefits of these tools:
 ===============================================
