@@ -91,6 +91,7 @@ Potential benefits of these tools:
 * Allow users (internal or public) to manipulate and view data themselves, reducing need for data requests
  + Can also create custom downloads of data
 * Can block queries on datasets that are too small or contain too many outliers, etc (i.e. may be inappropriate for statistical inference)
+* Save time by reducing duplicative work
 
 OAQ Data Analysis Contact Info
 ==============================================
